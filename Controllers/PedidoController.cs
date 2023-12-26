@@ -12,7 +12,7 @@ namespace ApiLovely.Controllers
 {  
     [ApiController]
     [Route("api/[controller]")]
-    public class PedidoController : ControllerBase
+    public class PedidoController : Controller
     
     {
         private readonly ILogger<PedidoController> _logger;
@@ -26,7 +26,6 @@ namespace ApiLovely.Controllers
         }
 
     [HttpGet]
-
         public ActionResult<IEnumerable<Pedido>> Get()
         {
                 var pedidos = _context.Pedidos.ToList();
@@ -35,8 +34,7 @@ namespace ApiLovely.Controllers
                     
                 return pedidos;
         }
-    [HttpGet ("(id:int)", Name="GetPedido")]
-
+    [HttpGet ("{id:int}")]
         public ActionResult<Pedido> Get(int id)
         {
             var pedido = _context.Pedidos.FirstOrDefault(p=> p.Id ==id);

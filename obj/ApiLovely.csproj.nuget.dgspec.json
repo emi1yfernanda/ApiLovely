@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\20201034010021\\Documents\\Lovely\\lovelly\\ApiLovely\\ApiLovely.csproj": {}
+    "C:\\Users\\20201034010021\\Documents\\Lovely\\ApiLovely\\ApiLovely.csproj": {}
   },
   "projects": {
-    "C:\\Users\\20201034010021\\Documents\\Lovely\\lovelly\\ApiLovely\\ApiLovely.csproj": {
+    "C:\\Users\\20201034010021\\Documents\\Lovely\\ApiLovely\\ApiLovely.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\20201034010021\\Documents\\Lovely\\lovelly\\ApiLovely\\ApiLovely.csproj",
+        "projectUniqueName": "C:\\Users\\20201034010021\\Documents\\Lovely\\ApiLovely\\ApiLovely.csproj",
         "projectName": "ApiLovely",
-        "projectPath": "C:\\Users\\20201034010021\\Documents\\Lovely\\lovelly\\ApiLovely\\ApiLovely.csproj",
+        "projectPath": "C:\\Users\\20201034010021\\Documents\\Lovely\\ApiLovely\\ApiLovely.csproj",
         "packagesPath": "C:\\Users\\20201034010021\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\20201034010021\\Documents\\Lovely\\lovelly\\ApiLovely\\obj\\",
+        "outputPath": "C:\\Users\\20201034010021\\Documents\\Lovely\\ApiLovely\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\20201034010021\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\20201034010021\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,6 +70,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -76,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

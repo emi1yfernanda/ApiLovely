@@ -12,7 +12,7 @@ namespace ApiLovely.Controllers
 {  
     [ApiController]
     [Route("api/[controller]")]
-    public class ProdutoController : ControllerBase
+    public class ProdutoController : Controller
     
     {
         private readonly ILogger<ProdutoController> _logger;
@@ -26,7 +26,6 @@ namespace ApiLovely.Controllers
         }
 
         [HttpGet]
-
         public ActionResult<IEnumerable<Produto>> Get()
         {
                 var produtos = _context.Produtos.ToList();
