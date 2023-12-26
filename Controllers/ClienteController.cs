@@ -35,7 +35,6 @@ namespace ApiLovely.Controllers
                 return clientes;}
 
     [HttpGet ("(id:int)", Name="GetCliente")]
-
     public ActionResult<Cliente> Get(int id)
     {
         var cliente = _context.Clientes.FirstOrDefault(p=> p.Id ==id);

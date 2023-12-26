@@ -7,11 +7,10 @@ namespace ApiLovely.Model
 {
     public class Categoria
     {
-        public int Id { get; set;}
-        public string CorpoBanho { get; set;}
-        public string Cabelo {get; set;}
-        public string Rosto {get; set;}
-        public string PerfumesFemininos {get; set;}
-        public string PerfumesMasculinos {get; set;}
+        public string CorpoBanho { get; set;} = "Corpo e Banho";
+        public string Cabelo {get; set;} = "Cabelo";
+        public string Rosto {get; set;} = "Rosto";
+        public string PerfumesFemininos {get; set;} = "Perfumes Femininos";
+        public string PerfumesMasculinos {get; set;} = "Perfumes Masculinos";
     }
 }
